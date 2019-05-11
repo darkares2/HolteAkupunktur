@@ -1,0 +1,28 @@
+﻿
+:local(.infoaddress) {
+    display: block;
+    color: black;
+    text-shadow: 0 0 5px white;
+}
+
+:local(.info) {
+    display: block;
+    color: white;
+    text-shadow: 0 0 5px black;
+}
+
+
+:local(.carousel .slide .legend2) {
+    position: absolute;
+    bottom: 140px;
+    left: 50%;
+    margin-left: -45%;
+    width: 90%;
+    border-radius: 10px;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+    opacity: .25;
+}
