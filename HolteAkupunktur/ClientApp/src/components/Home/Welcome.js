@@ -8,7 +8,7 @@ export class Welcome extends Component {
     render() {
         return (
             <Row className={styles.welcomesection}>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={12}>
                     <h3 className="d-flex justify-content-center">Velkommen til klinikken</h3>
                     <p className="d-flex justify-content-center">Jeg tilbyder akupunktur og massage efter traditionelle kinesiske behandlingsmetoder</p>
                     <p className="d-flex justify-content-center">Klinikken ligger centralt i Holte. Her kan du få ægte kinesisk akupunktur.</p>
@@ -24,11 +24,6 @@ export class Welcome extends Component {
                                 <FontAwesomeIcon icon='map-marked-alt' /></a>&nbsp;Holte Midtpunkt 20, 2. sal - (Elevator ved Apoteket)</h3>
                         </Col>
                     </Row>
-                </Col>
-                <Col xs={12} md={6}>
-                    <div className={styles.mapcontainer}>
-                        <Map />
-                    </div>
                 </Col>
             </Row>
         );
