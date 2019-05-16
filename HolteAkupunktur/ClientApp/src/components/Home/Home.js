@@ -1,5 +1,6 @@
 ﻿import React, { Component } from 'react';
 import { MainCarousel } from './MainCarousel';
+import { OfficeCarousel } from './OfficeCarousel';
 import { Welcome } from './Welcome';
 import { Prices } from './Prices';
 import { About } from './About';
@@ -19,6 +20,7 @@ export class Home extends Component {
                 <About />
                 <Treatment/>
                 <Clinic />
+                <OfficeCarousel />
                 <Prices />
                 <Subsidation />
                 <Footer />

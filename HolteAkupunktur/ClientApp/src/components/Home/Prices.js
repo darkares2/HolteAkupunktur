@@ -22,7 +22,7 @@ export class Prices extends Component {
                                         </tr>
                                         <tr>
                                             <td>Rabat kort 6 gange</td>
-                                            <td align="right">2550 kr.</td>
+                                            <td align="right">2600 kr.</td>
                                         </tr>
                                         <tr>
                                             <td>Rabat kort 10 gange</td>
@@ -55,6 +55,9 @@ export class Prices extends Component {
                                 </Table>
                         </Card.Body>
                     </Card>
+                </Col>
+                <Col md={12}>
+                    <h5>NB: Tager kun imod kontant og Mobilepay</h5>
                 </Col>
             </Row>
         );

@@ -3,3 +3,24 @@
 .nopadding {
     padding: 0;
 }
+
+
+@media screen and (max-width: 460px) {
+    .carousel-caption img {
+        max-height: 50px;
+    }
+    .carousel-caption h3 {
+        font-size: medium;
+    }
+    .carousel-caption span {
+        font-size: small;
+    }
+    .carousel-caption p {
+        font-size: small;
+    }
+    .carousel-caption li {
+        font-size: x-small;
+    }
+
+}
+

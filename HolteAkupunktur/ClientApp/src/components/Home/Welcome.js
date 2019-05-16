@@ -1,5 +1,5 @@
 ﻿import React, { Component } from 'react';
-import Map from '../Shared/Map'
+//import Map from '../Shared/Map'
 import styles from './Welcome.css';
 import { Col, Row } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

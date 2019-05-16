@@ -38,7 +38,7 @@ export class MainCarousel extends Component {
                                     <li>m.m.</li>
                                 </ul>
                             <Link
-                                className="btn btn-success"
+                                className="btn btn-success btn-sm"
                                 role="button"
                                 to={'#treatment'}>Behandlinger</Link>
                             </Carousel.Caption>
@@ -49,7 +49,7 @@ export class MainCarousel extends Component {
                                 <h3 className={styles.whitetext}>Tilskud til alternativ behandling</h3>
                             <p className={styles.whitetext}>Forsikringsselskaber yder tilskud til akupunktur behandlinger udført af behandlere der er medlemmer af R.A.B ordningen. </p>
                             <Link
-                                className="btn btn-danger"
+                                className="btn btn-danger btn-sm"
                                 role="button"
                                 to={'#prices'}>Priser</Link>
                             </Carousel.Caption>
