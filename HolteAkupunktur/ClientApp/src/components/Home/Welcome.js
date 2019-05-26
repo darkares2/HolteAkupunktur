@@ -12,6 +12,8 @@ export class Welcome extends Component {
                     <h3 className="d-flex justify-content-center">Velkommen til klinikken</h3>
                     <p className="d-flex justify-content-center">Jeg tilbyder akupunktur og massage efter traditionelle kinesiske behandlingsmetoder</p>
                     <p className="d-flex justify-content-center">Klinikken ligger centralt i Holte. Her kan du få ægte kinesisk akupunktur.</p>
+                    <p className="d-flex justify-content-center">Mandag til fredag fra kl. 9 til kl. 17:30</p>
+                    <p className="d-flex justify-content-center">Efter aftale om søndagen.</p>
                     <Row className={styles.phonesection}>
                         <Col xs={12} md={8}>
                             <h1 className="d-flex justify-content-center">Bestil nu på telefon</h1>

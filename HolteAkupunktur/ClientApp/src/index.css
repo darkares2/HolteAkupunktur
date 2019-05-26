@@ -1,4 +1,7 @@
 
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
 
 .nopadding {
     padding: 0;
