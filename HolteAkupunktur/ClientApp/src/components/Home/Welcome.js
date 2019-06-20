@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export class Welcome extends Component {
     render() {
         return (
-            <Row className={styles.welcomesection}>
+            <Row id="welcome" className={styles.welcomesection}>
                 <Col xs={12} md={12}>
                     <h3 className="d-flex justify-content-center">Velkommen til klinikken</h3>
                     <p className="d-flex justify-content-center">Her kan du få professionel akupunktur behandling i Holte</p>

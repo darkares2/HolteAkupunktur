@@ -22,6 +22,10 @@ export class MainCarousel extends Component {
                                     <span className={styles.info}>v/Bingya Nielsen</span>
                                 </Col>
                                 <Col xs={12} md={12}><span className={styles.info}>Mangeårig erfaring og ekspertise</span></Col>
+                            <Link
+                                className="btn btn-primary btn-sm"
+                                role="button"
+                                to={'#welcome'}>Velkommen</Link>
                             </Carousel.Caption>
                         </Carousel.Item>
                         <Carousel.Item>
