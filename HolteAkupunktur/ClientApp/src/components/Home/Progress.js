@@ -7,7 +7,7 @@ export class Progress extends Component {
         return (
             <Row id="treatment" className={styles.section}>
                 <Col xs={12} md={12}>
-                    <h3 className="d-flex justify-content-center">Behandslingsforløb</h3>
+                    <h3 className="d-flex justify-content-center">Behandlingsforløb</h3>
                     <p>Første gang du kommer på besøg, starter vi med en samtale og undersøgelse. Hvis du tidligere har haft problemer skal jeg kende og forstå din sygdoms historie.
                        Efter konsultation laver vi en behandlings plan.</p>
                     <p>Behandlings varighed er ca. 30-40 minutter. Efter behandling kan der forekomme reaktioner i kroppen. Det kan være behagelighed, ømhed eller afslappethed.
