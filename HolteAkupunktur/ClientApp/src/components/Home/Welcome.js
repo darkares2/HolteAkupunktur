@@ -14,7 +14,6 @@ export class Welcome extends Component {
                     <p className="d-flex justify-content-center">Jeg tilbyder akupunktur og massage efter traditionelle kinesiske behandlingsmetoder</p>
                     <p className="d-flex justify-content-center">Klinikken ligger centralt i Holte. Her kan du få ægte kinesisk akupunktur.</p>
                     <p className="d-flex justify-content-center">Mandag til fredag fra kl. 9 til kl. 17:30</p>
-                    <p className="d-flex justify-content-center font-weight-bold">OBS: Ferielukket fra torsdag d. 19/9-2019 til og med torsdag d. 3/10-2019</p>
                     <p className="d-flex justify-content-center">Efter aftale om søndagen.</p>
                     <Row className={styles.phonesection}>
                         <Col xs={12} md={8}>
